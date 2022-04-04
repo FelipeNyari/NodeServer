@@ -1,0 +1,32 @@
+/*
+SEMPRE QUE QUISERMOS TRABALHAR COM FLEXBOX, DEVEMOS COLOCAR SEMPRE DISPLAY FLEX NO ELEMENTO QUE 
+ESTIVER POR FORA DOS ELEMENTOS QUE QUISERMOS ALINHAR.
+
+PARA ALINHAMENTO DE CONTEUDO UTILIZAMOS AS PROPS ALIGN-ITEMS E JUSTIFY-CONTENT.
+*/
+html, 
+body, 
+#app {
+    height: 100%;
+    margin: 0;
+}
+#app{
+    display: flex;
+}
+.box{
+    width: 300px;
+    height: 60px;   
+    margin: 5px;   
+}
+.red {
+    background: #f00;
+}
+.blue{
+   background-color: blue; 
+   order: 4;
+}
+
+.green{
+    background-color: green;
+    order: 2;
+}
