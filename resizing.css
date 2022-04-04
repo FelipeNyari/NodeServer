@@ -1,0 +1,20 @@
+.custom-element-grow{
+    flex-grow: 0;
+}
+.element-grow{
+    flex-grow: 1;
+}
+.custom-element-shrink{
+    flex-shrink: 1;
+}
+.element-shrink{
+    flex-shrink: 0;
+}
+/*AUMENTE SE NECESSARIO MAS NÃO SE ESPREMA*/
+.element-grow-notShrink{
+    flex:1 0;
+}
+/*AUMENTE SE NECESSARIO E SE ESPREMA*/
+.element-grow-Shrink{
+    flex:1;
+}
